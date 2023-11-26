@@ -13,8 +13,5 @@ pybind11 = "^2.11.1"
 script = "build.py"
 
 [build-system]
-requires = [
-	"poetry-core",
-	"pybind11"
-]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=42", "wheel", "pybind11~=2.6.1"]
+build-backend = "setuptools.build_meta"
