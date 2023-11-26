@@ -365,3 +365,6 @@ FodyWeavers.xsd
 *.pyd
 *.egg-info/
 .vscode/
+
+dist/
+build/
