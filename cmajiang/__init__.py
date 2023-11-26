@@ -1,1 +1,1 @@
-﻿from cmajiang import *
+﻿from ._cmajiang import *
